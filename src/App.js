@@ -8,6 +8,7 @@ import Register from "./pages/register/Register";
 
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link, Routes } from "react-router-dom";
+import Footer from "./components/footer/Footer";
 
 function App() {
   const user = false
@@ -22,6 +23,7 @@ function App() {
           <Route path="/settings" element={<Setting />} />
           <Route path="/post/:postId" element={<Single />} />
         </Routes>
+      <Footer />
     </Router>
   );
 }

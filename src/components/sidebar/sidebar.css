@@ -32,17 +32,18 @@
 	text-align: center;
 }
 
-.sidebarImg {
+/* .sidebarImg {
 	margin-top: 15px;
 	width: 40px;
-}
+} */
 
 .sidebarItem > p {
 	padding: 30px;
 }
 
 .sidebarList {
-	list-style: none;
+	/* list-style: none; */
+	padding: 0;
 	margin-bottom: 30px;
 }
 
@@ -51,6 +52,7 @@
 	width: 50%;
 	margin-top: 15px;
 	cursor: pointer;
+	text-align: center;
 }
 
 .sidebarSocial {
