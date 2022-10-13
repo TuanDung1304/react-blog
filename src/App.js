@@ -23,7 +23,6 @@ function App() {
           <Route path="/settings" element={<Setting />} />
           <Route path="/post/:postId" element={<Single />} />
         </Routes>
-      <Footer />
     </Router>
   );
 }
