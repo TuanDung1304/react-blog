@@ -7,8 +7,7 @@ import Write from "./pages/write/Write";
 import Register from "./pages/register/Register";
 
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link, Routes } from "react-router-dom";
-import Footer from "./components/footer/Footer";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   const user = false

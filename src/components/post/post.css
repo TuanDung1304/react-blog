@@ -3,7 +3,6 @@
 	top: 0 25px 40px 25px;
 	display: flex;
 	flex-direction: column;
-	margin-bottom: 30px;
 }
 
 .postImg {
@@ -20,13 +19,8 @@
 }
 
 .postCats {
-<<<<<<< HEAD
 	margin-top: 5px;
 	margin-left: -10px;
-=======
-	margin-top: 15px;
-	margin-left: -8px;
->>>>>>> dc01a57201ebf71b6b945afa18eca5f5fa76267c
 }
 
 .postCat {
@@ -34,11 +28,7 @@
 	font-size: 12px;
 	color: #be9656;
 	line-height: 20px;
-<<<<<<< HEAD
 	margin-left: 20px;
-=======
-	margin-top: 5px;
->>>>>>> dc01a57201ebf71b6b945afa18eca5f5fa76267c
 	cursor: pointer;
 	margin-left: 16px;
 }

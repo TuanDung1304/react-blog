@@ -4,7 +4,7 @@ export default function Write() {
   return (
 	<div className='write'>
 		<img
-          src="https://images.pexels.com/photos/6685428/pexels-photo-6685428.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+          src="https://i.pinimg.com/originals/9a/03/7b/9a037b34f574fa2bf1624124ddf360b4.jpg"
           alt=""
           className="writeImg"
         />
