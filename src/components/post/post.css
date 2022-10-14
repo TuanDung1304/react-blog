@@ -18,12 +18,17 @@
 	align-items: center;
 }
 
+.postCats {
+	margin-top: 5px;
+	margin-left: -10px;
+}
+
 .postCat {
 	font-family: 'Varela Round', sans-serif;
-	font-size: 11px;
+	font-size: 12px;
 	color: #be9656;
 	line-height: 20px;
-	margin: 15px 10px 0 0;
+	margin-left: 20px;
 	cursor: pointer;
 }
 
