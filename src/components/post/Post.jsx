@@ -10,7 +10,6 @@ export default function Post({ img }) {
           <span className="postCat">Life</span>
         </div>
         <span className="postTitle">Lorem ipsum, dolor sit amet</span>
-        <hr />
         <span className="postDate">1 hour ago</span>
       </div>
       <p className="postDesc">
