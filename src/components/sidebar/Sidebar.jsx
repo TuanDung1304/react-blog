@@ -5,10 +5,6 @@ export default function Sidebar() {
     <div className="sidebar">
       <div className="sidebarItem">
         <span className="sidebarTitle">ABOUT ME</span>
-        <img sidebarImg
-        //   src="https://images.hindustantimes.com/img/2021/12/23/1600x900/robert-linder-CApbjQPRl28-unsplash_1640260678865_1640260703158.jpg"
-          alt=""
-        />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
           repellendus consequuntur cumque neque iure!
