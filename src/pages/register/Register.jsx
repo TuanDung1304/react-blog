@@ -14,7 +14,6 @@ export default function Register() {
 			<input type="password" className='registerInput' placeholder='Enter your password' />
 			<button className="registerBtn">Register</button>
 		</form>
-		<button className="registerLoginBtn"><Link to='/login'>Login</Link></button>
 	</div>
   )
 }

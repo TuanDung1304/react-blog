@@ -8,6 +8,7 @@ import Register from "./pages/register/Register";
 
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Game from "./pages/game/Game";
 
 function App() {
   const user = false
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/register" element={user ? <Home /> : <Register />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/game" element={<Game />} />
           <Route path="/write" element={<Write />} />
           <Route path="/settings" element={<Setting />} />
           <Route path="/post/:postId" element={<Single />} />
