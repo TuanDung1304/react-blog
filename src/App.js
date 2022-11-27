@@ -5,13 +5,13 @@ import Setting from "./pages/setting/Settings";
 import Single from "./pages/single/Single";
 import Write from "./pages/write/Write";
 import Register from "./pages/register/Register";
-
+import Game from "./pages/game/Game";
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Game from "./pages/game/Game";
+import Notfound from "./pages/notfound/Notfound";
 
 function App() {
-  const user = false
+  let user = true
   return (
     <Router>
       <TopBar />
@@ -23,6 +23,7 @@ function App() {
           <Route path="/write" element={<Write />} />
           <Route path="/settings" element={<Setting />} />
           <Route path="/post/:postId" element={<Single />} />
+          <Route path="*" element={<Notfound />} />
         </Routes>
     </Router>
   );
