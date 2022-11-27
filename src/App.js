@@ -11,14 +11,14 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Notfound from "./pages/notfound/Notfound";
 
 function App() {
-  let user = true
+  let user = false
   return (
     <Router>
       <TopBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/register" element={user ? <Home /> : <Register />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/login" element={user ? <Home /> : <Login />} />
           <Route path="/game" element={<Game />} />
           <Route path="/write" element={<Write />} />
           <Route path="/settings" element={<Setting />} />
